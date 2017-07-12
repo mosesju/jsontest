@@ -1,0 +1,40 @@
+{
+  "id": "d32d2f88-cdff-4d1e-baaf-2fa7426379ca",
+  "timestamp": "2017-07-12T14:54:17.325Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "latest pearl c 300",
+    "action": "getUrl",
+    "actionIncomplete": false,
+    "parameters": {
+      "Class": "C",
+      "Color": "white",
+      "Model": "300",
+      "Year": "Latest"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "fa33f821-54ee-4bb3-9226-9d47b2c4a4eb",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "First Check"
+    },
+    "fulfillment": {
+      "speech": "You said Latest 300 C white",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You said Latest 300 C white"
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 206,
+    "errorType": "partial_content",
+    "errorDetails": "Webhook call failed. Error message:  ErrorId: c007e562-80de-4cc2-8097-e7278b6a6c42"
+  },
+  "sessionId": "1c1dc8c9-0368-4fcb-a107-2bd6ec281eb2"
+}
